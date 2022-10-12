@@ -10,6 +10,7 @@ basic.forever(function () {
                 basic.clearScreen()
             }
         }
+        basic.showIcon(IconNames.Yes)
         speed += -80
     }
     speed = 200
